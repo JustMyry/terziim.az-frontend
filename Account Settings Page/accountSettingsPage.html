@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">	
+	<link rel="stylesheet" href="accountSettingsPage.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&display=swap" rel="stylesheet">
+	<title>Terziim</title>
+</head>
+<body>
+
+	<header class="header">
+		<!-- <img src="../static/questionIcon.png" alt="terziimLogo" class="questionIcon"> -->
+		<!-- <h3 class="glow">?</h3> -->
+        <a href="http://127.0.0.1:7300/Settings%20Page/settingsPage.html">
+            <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+        </a>
+		<img src="../static/terziimLogo.png" alt="terziimLogo" class="terziimLogoOnHeader">
+		<span>Hesab</span>
+	</header>
+
+	<section class="general">
+
+        <section class="editPicture">
+            <div class="pictureDiv">
+                <img src="../static/fakeGirlPP1.png" alt="" class="profilePicture">
+                <img src="../static/transparantCoverForPP.png" alt="" class="transparantForPicture">
+            </div>
+            <span class="editPictureText">Şəkli dəyişmək üçün şəkilə və ya yazıya toxunun</span>
+        </section>
+
+        <section class="editName">
+            <span class="editNameText">Adınızı dəyişmək üçün yenisini yazın:</span>
+            <input type="text" class="editNameInput" placeholder="narmin">
+        </section>
+
+        <section class="editBio">
+            <span class="editBioText">Biografiyanızı dəyişmək üçün yenisini yazın:</span>
+            <textarea name="editBioInput" id="editBioInput" cols="30" rows="10"
+            placeholder="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, alias." >
+            </textarea>
+        </section>
+
+        <section class="buttons">
+            <button class="returnButton">
+                <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+            </button>
+            <button class="saveButton" type="submit">Yadda saxla</button>
+        </section>
+	</section>
+	
+
+
+</body>
+</html>

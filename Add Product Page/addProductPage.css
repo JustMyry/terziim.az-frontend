@@ -1,0 +1,339 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, input, select, textarea, button,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-color: rgba(247, 247, 247, 0.8);
+    font-family: 'Open Sans', sans-serif;
+    
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+    text-decoration: none;
+}
+img {
+    border: 0;
+}
+:focus {
+    outline: 0;
+}
+.clear {
+    clear: both;
+}
+
+
+header {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px;
+    background-color: #fff;
+}
+
+.fa-long-arrow-left {
+    color: #6e6e6e;
+    margin-left: 10px;
+}
+
+.terziimLogoOnHeader {
+    height: 20px;
+    cursor: pointer;
+    margin-left: 70px;
+}
+
+.header span {
+    color: rgb(54, 54, 54);
+    display: flex;
+    font-size: 14px;
+    margin-right: 70px;
+}
+
+.pageHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    background-color: #FFA559;
+}
+
+.pageNumber {
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+.nextPage {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 20px;
+    margin-left: auto;
+}
+
+.general {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.productPrice {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.productBrand {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 20px 0px;
+}
+
+.productBrandText {
+    font-size: 14px;
+    color: #6e6e6e;
+    margin-bottom: 10px;
+}
+
+.productBrandInput {
+    height: 30px;
+    font-size: 14px;
+    padding: 5px 10px 5px 10px;
+    color: #202020;
+    background-color: #fff;
+    border: 1px solid #dedede;
+    border-radius: 10px;
+}
+
+
+.productName {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px 20px 0px;
+}
+
+.productNameText {
+    font-size: 14px;
+    color: #6e6e6e;
+    margin-bottom: 10px;
+}
+
+.productNameInput {
+    height: 30px;
+    font-size: 14px;
+    padding: 5px 10px 5px 10px;
+    color: #202020;
+    background-color: #fff;
+    border: 1px solid #dedede;
+    border-radius: 10px;
+}
+
+.productDescription {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px 20px 0px;
+}
+
+.productDescriptionText {
+    font-size: 14px;
+    color: #6e6e6e;
+    margin-bottom: 10px;
+}
+
+.productDescriptionInput {
+    height: 60px;
+    font-size: 12px;
+    padding: 5px 10px 5px 10px;
+    color: #202020;
+    background-color: #fff;
+    border: 1px solid #dedede;
+    border-radius: 10px;
+}
+
+
+.productPriceText {
+    font-size: 14px;
+    color: #6e6e6e;
+    margin-bottom: 10px;
+}
+
+.productPriceInput {
+    height: 60px;
+    width: 100px;
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    color: #202020;
+    background-color: #fff;
+    border: 1px solid #dedede;
+    border-radius: 10px;
+}
+
+
+.productPriceBottom {
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.productCurrencyManat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+.productCurrencyManat i {
+    font-size: 40px;
+    color: #FFA559;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+
+
+
+.productCurrencyDollar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+.productCurrencyDollar i {
+    font-size: 40px;
+    color: #FFA559;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+
+
+.productCurrencyEuro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+.productCurrencyEuro i {
+    font-size: 40px;
+    color: #FFA559;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.productCurrencyRadio {
+    font-size: 40px;
+    color: #FFA559;
+}
+
+
+.isNew {
+    display: flex;
+    align-items: center;
+}
+
+.isNewButton {
+    height: 20px;
+    margin-right: 15px;
+}
+
+
+
+.nextPageButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+    background-color: #FFA559;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+.nextPageButton:hover {
+    background-color: #e96900;
+}
+
+
+
+
+
+footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    height: 40px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    color: rgb(97, 97, 97);
+}
+
+.homePage {
+    height: 40;
+    width: 3rem;
+    margin-left: 2rem;
+}
+
+.followersPage {
+    height: 40;
+    width: 3rem;
+}
+
+.likePage {
+    height: 40;
+    width: 3rem;
+    font-size: 1.4rem;
+    color: rgb(233, 51, 51);
+}
+
+.addPage {
+    height: 40;
+    width: 3rem;
+}
+
+.userPage {
+    height: 40;
+    width: 3rem;
+    margin-right: 0.4rem;
+}

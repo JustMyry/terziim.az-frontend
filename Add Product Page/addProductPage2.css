@@ -1,0 +1,310 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, input, select, textarea, button,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-color: rgba(247, 247, 247, 0.8);
+    font-family: 'Open Sans', sans-serif;
+    
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+    text-decoration: none;
+}
+img {
+    border: 0;
+}
+:focus {
+    outline: 0;
+}
+.clear {
+    clear: both;
+}
+
+
+header {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px;
+    background-color: #fff;
+}
+
+.fa-long-arrow-left {
+    color: #6e6e6e;
+    margin-left: 10px;
+}
+
+.terziimLogoOnHeader {
+    height: 20px;
+    cursor: pointer;
+    margin-left: 70px;
+}
+
+.header span {
+    color: rgb(54, 54, 54);
+    display: flex;
+    font-size: 14px;
+    margin-right: 70px;
+}
+
+.pageHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    background-color: #FFA559;
+}
+
+.pageNumber {
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+.nextPage {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 20px;
+    margin-left: auto;
+}
+
+.general {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+
+.cargo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.cartoText {
+    font-size: 14px;
+    color: #6e6e6e;
+    margin-bottom: 10px;
+}
+
+.terziimCargo {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.cargoBottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cargoDetails {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.cargoDetail {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+
+}
+
+.cargoname {
+    font-size: 14px;
+    font-weight: bold;
+    color: #5a5a5a;
+    margin-bottom: 10px;
+}
+
+.cargoPicture {
+    height: 60px;
+    border-radius: 10px;
+}
+
+.cargoDescription {
+    font-size: 10px;
+    color: #6e6e6e;
+}
+
+.cargoPrice {
+    margin-left: 15px;
+    margin-right: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFA559;
+}
+
+
+.cargoExternalLink {
+    font-size: 12px;
+    color: #569DAA;
+}
+
+.sellerCargo {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.cargoDescriptionInput {
+    border: 1px solid #FFA559;
+}
+
+
+
+.paymentText {
+    font-size: 14px;
+    color: #6e6e6e;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.terziimPayment {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.cashPayment {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.cardPayment {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.paymentDetail {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+
+}
+
+.paymentname {
+    font-size: 14px;
+    font-weight: bold;
+    color: #5a5a5a;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.nextPageButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+    background-color: #FFA559;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.nextPageButton:hover {
+    background-color: #e96900;
+}
+
+
+
+
+
+footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    height: 40px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    color: rgb(97, 97, 97);
+}
+
+.homePage {
+    height: 40;
+    width: 3rem;
+    margin-left: 2rem;
+}
+
+.followersPage {
+    height: 40;
+    width: 3rem;
+}
+
+.likePage {
+    height: 40;
+    width: 3rem;
+    font-size: 1.4rem;
+    color: rgb(233, 51, 51);
+}
+
+.addPage {
+    height: 40;
+    width: 3rem;
+}
+
+.userPage {
+    height: 40;
+    width: 3rem;
+    margin-right: 0.4rem;
+}

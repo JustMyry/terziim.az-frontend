@@ -1,0 +1,320 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, input, select, textarea, button,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-color: rgba(247, 247, 247, 0.8);
+    font-family: 'Open Sans', sans-serif;
+    
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+img {
+    border: 0;
+}
+:focus {
+    outline: 0;
+}
+.clear {
+    clear: both;
+}
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px;
+    background-color: #fff;
+}
+
+.terziimLogoOnHeader {
+    height: 22px;
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+.header span {
+    color: rgb(54, 54, 54);
+    font-size: 14px;
+    
+}
+.fa-long-arrow-left {
+    color: #6e6e6e;
+    margin-right: 60px;
+}
+
+.general {
+    width: 100%;
+    padding: 5px 7px 5px 5px;
+}
+
+.settingsText {
+    font-size: 18px;
+    color: #6e6e6e;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+.settings {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-top: 1px solid #dddd;
+    border-bottom: 1px solid #dddd;
+    margin-bottom: 5px;
+}
+.account:hover {
+    background-color: #ffe4ce;
+}
+.account i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #e96900;
+}
+.account span {
+    font-size: 14px;
+}
+
+.privacy {
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-top: 1px solid #dddd;
+    border-bottom: 1px solid #dddd;
+    margin-bottom: 5px;
+}
+.privacy:hover {
+    background-color: #ffe4ce;
+}
+.privacy i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #e96900;
+}
+.privacy span {
+    font-size: 14px;
+}
+
+.security {
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-top: 1px solid #dddd;
+    border-bottom: 1px solid #dddd;
+    margin-bottom: 5px;
+}
+.security:hover {
+    background-color: #ffe4ce;
+}
+.security i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #e96900;
+}
+.security span {
+    font-size: 14px;
+}
+
+.verifiedRequisition {
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-top: 1px solid #dddd;
+    border-bottom: 1px solid #dddd;
+    margin-bottom: 5px;
+}
+.verifiedRequisition:hover {
+    background-color: #ffe4ce;
+}
+.verifiedRequisition i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #e96900;
+}
+.verifiedRequisition span {
+    font-size: 14px;
+}
+
+.requisition {
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-top: 1px solid #dddd;
+    border-bottom: 1px solid #dddd;
+    margin-bottom: 5px;
+}
+.requisition:hover {
+    background-color: #ffe4ce;
+}
+.requisition i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #e96900;
+}
+.requisition span {
+    font-size: 14px;
+}
+
+.howItWorks {
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-top: 1px solid #dddd;
+    border-bottom: 1px solid #dddd;
+    margin-bottom: 5px;
+}
+.howItWorks:hover {
+    background-color: #ffe4ce;
+}
+.howItWorks i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #e96900;
+}
+.howItWorks span {
+    font-size: 14px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-top: 1px solid #dddd;
+    border-bottom: 1px solid #dddd;
+    margin-bottom: 5px;
+}
+.about:hover {
+    background-color: #ffe4ce;
+}
+.about i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #e96900;
+}
+.about span {
+    font-size: 14px;
+}
+
+.logout {
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-top: 1px solid #dddd;
+    border-bottom: 1px solid #dddd;
+    margin-bottom: 5px;
+}
+.logout:hover {
+    background-color: #ffe4ce;
+}
+.logout i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #e96900;
+}
+.logout span {
+    font-size: 14px;
+}
+
+
+
+.settingsBottom {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.terziim {
+    display: flex;
+    position: fixed;
+    bottom: 15px;
+    left: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.terziimLogo {
+    height: 30px;
+}
+
+.terziim span {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

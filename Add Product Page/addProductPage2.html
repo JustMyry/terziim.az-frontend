@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">	
+	<link rel="stylesheet" href="addProductPage2.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&display=swap" rel="stylesheet">
+	<title>Terziim</title>
+</head>
+<body>
+
+    <header class="header">
+        <!-- <img src="../static/questionIcon.png" alt="terziimLogo" class="questionIcon"> -->
+        <!-- <h3 class="glow">?</h3> -->
+        <a href="http://127.0.0.1:7300/Add%20Product%20Page/addProductPage.html">
+			<i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+		</a>
+        <img src="../static/terziimLogo.png" alt="terziimLogo" class="terziimLogoOnHeader">
+        <span> Məhsul Əlavəsi</span>
+    </header>
+    <section class="pageHeader">
+        <span class="pageNumber">2 - Xidmətlər Haqqında</span>
+        <!-- <span class="nextPage">
+            <i class="fa fa-angle-right expandIcon" aria-hidden="true"></i>
+        </span> -->
+    </section>
+
+	<section class="general">
+
+        
+        <section class="cargo">
+            <div class="cartoText">Daşınma Yolu:</div>
+            <div class="terziimCargo">
+                <input type="radio" class="terziimRadio" name="cargoRadio" id="terziimRadio">
+                <div class="cargoBottom">
+                    <label for="terziimRadio">
+                        <div class="cargoDetails">
+                            <img src="../static/terziimCargo.png" alt="" class="cargoPicture">
+                            <span class="cargoDetail">
+                                <span class="cargoname">Terziim Cargo</span>
+                                <span class="cargoDescription">Lorem ipsum dolor sit amet consectetur 
+                                    adipisicing elit. Ea quae repellat nostrum voluptatem vero...
+                                </span>
+                            </span>
+                            <span class="cargoPrice">2</span>
+                        </div>
+                    </label>
+                    <a href="#" class="cargoExternalLink">Tərziim Cargo detalları oxumaq üçün tıklayın</a>
+                </div>
+            </div>
+            <div class="sellerCargo">
+                <input type="radio" class="sellerRadio" name="cargoRadio" id="sellerRadio">
+                <div class="cargoBottom">
+                    <label for="sellerRadio">
+                        <div class="cargoDetails">
+                            <img src="../static/defaultCargo.png" alt="" class="cargoPicture">
+                            <span class="cargoDetail">
+                                <span class="cargoname">Satıcının Özəl Metodu</span>
+                                <span class="cargoDescription">Lorem ipsum dolor sit amet consectetur 
+                                    adipisicing elit. Ea quae repellat nostrum voluptatem vero...
+                                </span>
+                            </span>
+                            <span class="cargoPrice">?</span>
+                        </div>
+                    </label>
+                    <a href="#" class="cargoExternalLink">Satıcı Özəl Cargo detalları oxumaq üçün tıklayın</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="payment">
+            <div class="paymentText">Ödəmə Yolu</div>
+            <div class="terziimPayment">
+                <input type="checkbox" class="terziimRadio" name="paymentRadio" id="terziimCashRadio">
+                <div class="cargoBottom">
+                    <label for="terziimCashRadio">
+                        <div class="cargoDetails">
+                            <img src="../static/terziimPayment.png" alt="" class="cargoPicture">
+                            <span class="paymentDetail">
+                                <span class="paymentname">Terziim Ödəmə</span>
+                                <span class="cargoDescription">Lorem ipsum dolor sit amet consectetur 
+                                    adipisicing elit. Ea quae repellat nostrum voluptatem vero...
+                                </span>
+                            </span>
+                        </div>
+                    </label>
+                    <a href="#" class="cargoExternalLink">Tərziim Ödəmə detalları oxumaq üçün tıklayın</a>
+                </div>
+            </div>
+            <div class="cashPayment">
+                <input type="checkbox" class="sellerRadio" name="paymentRadio" id="cashPaymentRadio">
+                <div class="cargoBottom">
+                    <label for="cashPaymentRadio">
+                        <div class="cargoDetails">
+                            <img src="../static/cashPayment.png" alt="" class="cargoPicture">
+                            <span class="paymentDetail">
+                                <span class="paymentname">Nəğd Ödəmə</span>
+                                <span class="cargoDescription">Lorem ipsum dolor sit amet consectetur 
+                                    adipisicing elit. Ea quae repellat nostrum voluptatem vero...
+                                </span>
+                            </span>
+                        </div>
+                    </label>
+                    <a href="#" class="cargoExternalLink">Satıcı Özəl Nəğd detalları oxumaq üçün tıklayın</a>
+                </div>
+            </div>
+            <div class="cardPayment">
+                <input type="checkbox" class="sellerRadio" name="paymentRadio" id="cardPaymentRadio">
+                <div class="cargoBottom">
+                    <label for="cardPaymentRadio">
+                        <div class="cargoDetails">
+                            <img src="../static/cardPayment.png" alt="" class="cargoPicture">
+                            <span class="paymentDetail">
+                                <span class="paymentname">Cartla Ödəmə</span>
+                                <span class="cargoDescription">Lorem ipsum dolor sit amet consectetur 
+                                    adipisicing elit. Ea quae repellat nostrum voluptatem vero...
+                                </span>
+                            </span>
+                        </div>
+                    </label>
+                    <a href="#" class="cargoExternalLink">Satıcı Özəl Cart detalları oxumaq üçün tıklayın</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="community">
+
+        </section>
+        
+
+        <a href="http://127.0.0.1:7300/Add%20Product%20Page/addProductPage3.html" class="nextPageButton">Sonrakı səhifə</a>
+
+
+	</section>
+
+	
+	<footer class="navigator">
+		<a href="http://127.0.0.1:7300/Main%20Page/mainPage.html">
+			<i class="fa fa-home homePage" aria-hidden="true"></i>
+		</a>
+		<a href="http://127.0.0.1:7300/Followers%20Product%20Page/followerProductPage.html">
+			<i class="fa fa-users followersPage" aria-hidden="true"></i>
+		</a>
+		<a href="http://127.0.0.1:7300/Liked%20Products%20Page/likedProductsPage.html">
+			<i class="fa fa-heart likePage" aria-hidden="true"></i>
+		</a>
+		<a href="http://127.0.0.1:7300/Add%20Product%20Page/addProductPage.html">
+			<i class="fa fa-plus addPage" aria-hidden="true"></i>
+		</a>
+		<a href="http://127.0.0.1:7300/Accaunt%20Page/account.html">
+			<i class="fa fa-user userPage" aria-hidden="true"></i>
+		</a>
+	</footer>
+
+
+</body>
+</html>

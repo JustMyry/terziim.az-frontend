@@ -1,0 +1,169 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, input, select, textarea, button,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-color: rgba(247, 247, 247, 0.8);
+    font-family: 'Open Sans', sans-serif;
+    
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+    text-decoration: none;
+}
+img {
+    border: 0;
+}
+:focus {
+    outline: 0;
+}
+.clear {
+    clear: both;
+}
+
+
+
+.general {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding-bottom: 220px;
+}
+
+.fa-ellipsis-h {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 18px;
+    color: #6e6e6e;
+}
+
+.upperText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.terziim {
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.slogan {
+    font-size: 14px;
+    font-weight: bold;
+    color: #6e6e6e;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.signin {
+    display: flex;
+    justify-content: center;
+    width: 280px;
+    color: #fff;
+    background-color: #e96900;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.signin:hover {
+    background-color: #a34900;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    width: 280px;
+    color: #fff;
+    background-color: #ff831d;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.signup:hover {
+    background-color: #e96900;
+}
+
+.bottomText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.question {
+    font-size: 12px;
+    color: #6e6e6e;
+    margin-bottom: 10px;
+}
+
+.asGuest {
+    font-size: 12px;
+    color: #6e6e6e;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(247, 247, 247, 0.8);
+}
+
+.border {
+    border-bottom: 1px solid #dddd;
+    width: 280px;
+}
+
+.indice {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
